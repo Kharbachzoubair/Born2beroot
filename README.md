@@ -1,47 +1,47 @@
-# Born2beRoot
+# Born2beRoot 🌍
 
-This repository contains the **Born2beRoot** project, including a monitoring script that provides detailed system statistics. The script outputs essential system information, such as architecture, CPU, memory usage, disk space, and more.
+This repository contains the **Born2beRoot** project, including a monitoring script that provides detailed system statistics. The script outputs essential system information, such as architecture, CPU, memory usage, disk space, and more. 📊
 
-## Script Features
+## Script Features 🛠️
 
 The monitoring script provides the following system details:
 
-- **Architecture**: System architecture (via `uname`).
-- **CPU Information**:
-  - **Physical CPUs**: Total number of physical sockets.
-  - **Virtual CPUs**: Total number of virtual processors.
-- **Memory Usage**:
+- **Architecture** 🖥️: System architecture (via `uname`).
+- **CPU Information** 🧠:
+  - **Physical CPUs** ⚙️: Total number of physical sockets.
+  - **Virtual CPUs** 🖧: Total number of virtual processors.
+- **Memory Usage** 💾:
   - Total memory and used memory in MB.
   - Percentage of memory utilization.
-- **Disk Usage**:
+- **Disk Usage** 💽:
   - Total and used disk space (in GB/MB).
   - Percentage of disk utilization.
-- **CPU Load**: Current percentage of CPU usage.
-- **Last Boot Time**: The date and time of the last system reboot.
-- **LVM Use**: Indicates if Logical Volume Manager (LVM) is enabled.
-- **TCP Connections**: Number of active established TCP connections.
-- **User Logs**: Number of users currently logged into the system.
-- **Network Details**:
+- **CPU Load** 🔋: Current percentage of CPU usage.
+- **Last Boot Time** 🔄: The date and time of the last system reboot.
+- **LVM Use** 📦: Indicates if Logical Volume Manager (LVM) is enabled.
+- **TCP Connections** 🌐: Number of active established TCP connections.
+- **User Logs** 👥: Number of users currently logged into the system.
+- **Network Details** 🌍:
   - IPv4 address of the system.
   - MAC address of the network interface.
-- **Sudo Command History**: Total number of `sudo` commands executed.
+- **Sudo Command History** ⏳: Total number of `sudo` commands executed.
 
-## Usage Instructions
+## Usage Instructions ⚙️
 
-### Clone the Repository
+### Clone the Repository 🖥️
 
 ```bash
 git clone <repository-url>
 cd <repository-directory>
-```
 
-### Make the Script Executable
+
+### Make the Script Executable 🔒
 
 ```bash
 chmod +x monitoring.sh
 ```
 
-### Run the Script
+### Run the Script ▶️
 
 Execute the script to display system statistics:
 
@@ -49,7 +49,7 @@ Execute the script to display system statistics:
 ./monitoring.sh
 ```
 
-### Broadcast System Information
+### Broadcast System Information 📢
 
 Use the following command to broadcast the system statistics to all users:
 
@@ -57,7 +57,7 @@ Use the following command to broadcast the system statistics to all users:
 wall "$(./monitoring.sh)"
 ```
 
-## Example Output
+## Example Output 📄
 
 When executed, the script provides output similar to the following:
 
@@ -76,13 +76,13 @@ When executed, the script provides output similar to the following:
 #Sudo: 15 cmd
 ```
 
-## Notes
+## Notes ⚠️
 
 - Ensure you have root permissions when running the script, especially to access `journalctl` and `ss`.
 - Modify the script to fit your specific environment if needed.
 - The output may vary depending on your system configuration and installed utilities.
 
-## Script Code
+## Script Code 💻
 
 Below is the complete code for the monitoring script:
 
