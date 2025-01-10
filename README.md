@@ -34,7 +34,6 @@ The monitoring script provides the following system details:
 git clone <repository-url>
 cd <repository-directory>
 
-
 ### Make the Script Executable 🔒
 
 ```bash
