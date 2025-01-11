@@ -157,6 +157,7 @@ wall " #Architecture: $archit
 	#Sudo: $scmd cmd"
 
 
+```
 ---
 
 ### 👨‍💻 Author
