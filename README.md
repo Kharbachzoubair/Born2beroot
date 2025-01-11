@@ -2,6 +2,8 @@
 
 This repository contains the **Born2beRoot** project, including a monitoring script that provides detailed system statistics. The script outputs essential system information, such as architecture, CPU, memory usage, disk space, and more. 📊
 
+---
+
 ## Script Features 🛠️
 
 The monitoring script provides the following system details:
@@ -26,6 +28,8 @@ The monitoring script provides the following system details:
   - MAC address of the network interface.
 - **Sudo Command History** ⏳: Total number of `sudo` commands executed.
 
+---
+
 ## Usage Instructions ⚙️
 
 ### Clone the Repository 🖥️
@@ -34,12 +38,14 @@ The monitoring script provides the following system details:
 git clone <repository-url>
 cd <repository-directory>
 ```
+---
 
 ### Make the Script Executable 🔒
 
 ```bash
 chmod +x monitoring.sh
 ```
+---
 
 ### Run the Script ▶️
 
@@ -48,6 +54,7 @@ Execute the script to display system statistics:
 ```bash
 ./monitoring.sh
 ```
+---
 
 ### Broadcast System Information 📢
 
@@ -56,6 +63,7 @@ Use the following command to broadcast the system statistics to all users:
 ```bash
 wall "$(./monitoring.sh)"
 ```
+---
 
 ## Example Output 📄
 
@@ -76,11 +84,15 @@ When executed, the script provides output similar to the following:
 #Sudo: 15 cmd
 ```
 
+---
+
 ## Notes ⚠️
 
 - Ensure you have root permissions when running the script, especially to access `journalctl` and `ss`.
 - Modify the script to fit your specific environment if needed.
 - The output may vary depending on your system configuration and installed utilities.
+
+---
 
 ## Script Code 💻
 
@@ -143,3 +155,8 @@ wall " #Architecture: $archit
 	#User log: $ul
 	#Network: IP $ip4 ($maca)
 	#Sudo: $scmd cmd"
+
+---
+### 👨‍💻 Author
+Zoubair Kharbach
+💻 C Programming Enthusiast | 🌟 Working hard to perfect the art of ft_printf!
