@@ -156,7 +156,10 @@ wall " #Architecture: $archit
 	#Network: IP $ip4 ($maca)
 	#Sudo: $scmd cmd"
 
+
 ---
+
+
 ### 👨‍💻 Author
 Zoubair Kharbach
-💻 C Programming Enthusiast | 🌟 Working hard to perfect the art of ft_printf!
+
